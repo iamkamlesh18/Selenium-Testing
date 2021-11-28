@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-18T05:44:34.866Z",
+        "line": 2,
+        "name": "Positive Sign Up and Login scenario",
+        "description": "",
+        "id": "sign-up-and-login-feature;positive-sign-up-and-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65933830200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#createAccountSubmit\"}\n  (Session info: chrome\u003d96.0.4664.45)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN51018401\u0027, ip: \u0027192.168.43.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\\Users\\KAMLEPAT\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6bb4a78f0f6fa8fd027ad0707ee69e88\n*** Element info: {Using\u003did, value\u003dcreateAccountSubmit}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdef.LoginStepDef.user_click_on_sing_up_page(LoginStepDef.java:34)\r\n\tat ✽.user click on sign up page(file:///C:/Users/KAMLEPAT/Documents/Selenium_Testing/ProjectFiles_Intellj/BDDDemo/features/Login.feature:4)\r\n",
+              "duration": 5262375700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user click on sign up page",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.user_click_on_sing_up_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters name mobile and password \"Kamlesh\" \"7770000347\" \"Asd@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamlesh\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"7770000347\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Asd@123\"",
+                  "offset": 60
+                }
+              ],
+              "location": "com.stepdef.LoginStepDef.user_enters_name_mobile_and_password(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is signing in with the same account \"7770000234\" \"Asd@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7770000234\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Asd@123\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.stepdef.LoginStepDef.user_is_signing_in_with_the_same_account(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up and Login Feature",
+    "description": "",
+    "id": "sign-up-and-login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-18T06:22:06.723Z",
+        "line": 3,
+        "name": "Positive Sign Up and Login scenario",
+        "description": "",
+        "id": "sign-up-and-login-feature;positive-sign-up-and-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5438144000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.stepdef.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181999800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on login page and enters username and password \"standard_user\" \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.stepdef.Login.user_click_on_login_page_and_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2137584300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.stepdef.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5218405100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on logout button",
+            "match": {
+              "location": "com.stepdef.Login.userClicksOnLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8085722500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "browser close",
+            "match": {
+              "location": "com.stepdef.Login.browserClose()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@selenium"
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up and Login Feature",
+    "description": "",
+    "id": "sign-up-and-login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": []
+  }
+]
